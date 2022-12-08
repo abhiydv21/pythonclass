@@ -80,4 +80,15 @@ output = list(filter(lambda i:i.get("score") >= 40, students_score))
 print(output) 
 
 
- 
+colors = ["yellow", "red", "green", "blue", "yellow", "orange", "red"]
+remove = ["yellow", "red"]
+#remove these colors from remove list
+for i in colors:
+    
+
+colors = ["yellow", "red", "green", "blue", "yellow", "orange", "red"]
+# take user input input two times which color to be removed
+  
+
+
+
