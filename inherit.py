@@ -39,9 +39,7 @@ class Person(User):
         self.name = name
         self.address = address 
 
-    
-
-    def profile(self):
+        def profile(self):
         print(f"Name: {self.name}")
         print(f"Address: {self.address}")
 

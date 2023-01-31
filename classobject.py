@@ -1,11 +1,11 @@
-#1. Class and Object
-#2. Inheritance
-#3. Abstraction
-#4. Polymorphism
+1. Class and Object
+2. Inheritance
+3. Abstraction
+4. Polymorphism
 
-#Noun -> object
-# adjective -> property, Characteristics
-#nverb -> method, function, action
+Noun -> object
+adjective -> property, Characteristics
+nverb -> method, function, action
 
 class Student: 
 
