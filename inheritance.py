@@ -1,39 +1,39 @@
-# class Person:
-#     def __init__(self, name, address):
-#         self.name = name 
-#         self.address = address
+class Person:
+    def __init__(self, name, address):
+        self.name = name 
+        self.address = address
 
-#     def walk(self):
-#         print(f"{self.name} is walking.")
+    def walk(self):
+        print(f"{self.name} is walking.")
 
-# class Teacher(Person):
-#     def __init__(self,name,address,designation):
-#         super().__init__(name,address)
-#         self.designation = designation
+class Teacher(Person):
+    def __init__(self,name,address,designation):
+        super().__init__(name,address)
+        self.designation = designation
 
-#     def teach(self):
-#         print(f"{self.name} is teaching.")
+    def teach(self):
+        print(f"{self.name} is teaching.")
 
-# class Student(Person):
-#     def __init__(self, name, address, roll_number):
-#         super().__init__(name, address)
-#         self.roll = roll_number
+class Student(Person):
+    def __init__(self, name, address, roll_number):
+        super().__init__(name, address)
+        self.roll = roll_number
         
-#     def walk(self):
-#         print(f"{self.name} is running.")
+    def walk(self):
+        print(f"{self.name} is running.")
 
-# s = Student("Hari", "Ktm", 2)
-# s.walk()
+s = Student("Hari", "Ktm", 2)
+s.walk()
 
-# t = Teacher("Ram", "Ktm", "prof")
-# t.walk()
-# t.teach()
+t = Teacher("Ram", "Ktm", "prof")
+t.walk()
+t.teach()
 
 
-# class User:
-#     def __init__(self, username, password):
-#         self.username = username
-#         self.password = password
+class User:
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
 
 
 # class Person(User):
